@@ -1,0 +1,13 @@
+Estas estruturas são consideradas construtores sintáticos (syntactic constructs) ou, mais formalmente, expressões de compreensão (comprehension expressions).
+
+Na documentação oficial Python, os nomes são:
+
+List comprehension → expressão que gera listas.
+
+Set comprehension → expressão que gera conjuntos.
+
+Dict comprehension → expressão que gera dicionários.
+
+Generator expression → expressão que gera iteradores (e pode ser convertido em tupla, lista, etc.).
+
+Ou seja, o termo técnico mais amplo é comprehension: uma forma mais curta e expressiva de construir coleções (ou geradores) a partir de iteráveis com filtros e transformações aplicadas inline.
