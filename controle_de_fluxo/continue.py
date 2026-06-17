@@ -1,0 +1,8 @@
+# Mensagem
+print("\nImprimindo apenas os números ímpares:")
+
+# Loop com instrução continue
+for numero in range(1, 11):
+    if numero % 2 == 0:
+        continue  # Pula para a próxima iteração se o número for par
+    print(numero)
