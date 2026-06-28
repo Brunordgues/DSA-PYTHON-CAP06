@@ -1,0 +1,11 @@
+Trabalhando com Número Variado de Argumentos em Funções Python
+
+Em Python, *args e **kwargs são formas de tornar funções mais flexíveis, permitindo receber um número variável de argumentos sem precisar definí-los todos na assinatura da função.
+
+*args – argumentos posicionais variáveis
+
+O asterisco (*) antes do nome indica que a função pode receber qualquer quantidade de argumentos posicionais. Esses valores chegam dentro da função como uma tupla.
+
+**kwargs – argumentos nomeados variáveis
+
+Os dois asteriscos (**) indicam que a função pode receber qualquer quantidade de argumentos nomeados (chave e valor). Esses valores chegam dentro da função como um dicionário.
